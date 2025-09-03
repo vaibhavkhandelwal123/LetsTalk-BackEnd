@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/rooms")
-@CrossOrigin("*")
+@CrossOrigin("https://letstalk-1cki.onrender.com/")
 public class RoomAPI {
 
     @Autowired

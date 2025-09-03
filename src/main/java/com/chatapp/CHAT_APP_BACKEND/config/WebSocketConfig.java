@@ -15,7 +15,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/chat")  // 👈 matches frontend
-                .setAllowedOrigins("*")
+                .setAllowedOrigins("https://letstalk-1cki.onrender.com/")
                 .withSockJS();
     }
 

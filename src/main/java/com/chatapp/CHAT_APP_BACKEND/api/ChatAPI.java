@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("https://letstalk-1cki.onrender.com/")
 public class ChatAPI {
 
     @Autowired
